@@ -595,7 +595,7 @@
             <h2>Cont&aacute;ctame</h2>
           </div>
 
-          <form id="contact-form" class="w3-container" method="POST" action="https://formspree.io/xdoanane">
+          <!-- <form id="contact-form" class="w3-container" method="POST" action="https://formspree.io/xdoanane">
             <input type="hidden" name="_subject" value="Un nuevo mensaje desde tu CV · Nestor Fleitas" />
             <input type="text" name="_gotcha" style="display:none" />
 
@@ -613,6 +613,23 @@
 
             <br>
             <button id="btn-submit" type="submit" class="w3-btn w3-teal w3-margin-bottom">Enviar</button>
+          </form> -->
+
+          <!-- modify this form HTML and place wherever you want your form -->
+
+          <form action="https://formspree.io/xdoanane" method="POST">
+            <label>
+              Your email:
+              <input type="text" name="_replyto">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+
+            <!-- your other form fields go here -->
+
+            <button type="submit">Send</button>
           </form>
 
         </div>
